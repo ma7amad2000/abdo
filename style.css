@@ -1,0 +1,778 @@
+:root {
+  --samawi: #bd1c1c;
+  --smawifateh: #222;
+  --ahmer: #ff0000;
+  --aswad: #000;
+  --abyath: #ffffff;
+  --akhdar: #49b119;
+  --padding: 6%;
+  --asfar: #e4e00d;
+}
+
+body{
+  background: #bd1c1c;
+}
+
+
+html {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-size: 16px;
+  color: var(--abyath);
+}
+
+.content {
+  background-color: var(--smawifateh);
+  flex-grow: 1;
+  padding: 1 var(--padding);
+  /* display: flex;
+  align-items: center; */
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(14, 9, 114, 0.962), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+}
+
+.conteinet-skills h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.card h1 {
+  color: var(--smawifateh);
+  font-size: 1.87rem;
+  margin-top: -2rem;
+}
+
+h1 {
+  font-size: 2.50rem;
+  margin: 1.5rem 0;
+  margin-top: 3rem;
+  text-align: center;
+
+  justify-content: center;
+
+  color: var(--abyath);
+}
+
+h2 {
+  color: var(--abyath);
+  font-size: 2.2rem;
+  letter-spacing: 0.12rem;
+  cursor: pointer;
+ 
+}
+
+h3 {
+  font-size: 2.3rem;
+  color: var(--samawi);
+  text-align: center;
+  margin-bottom: -6rem;
+
+
+}
+
+.content p {
+  font-size: 1.5rem;
+  color: var(--samawi);
+  /* margin-top: 2rem; */
+  font: bolder;
+  text-align: center;
+ 
+}
+
+h5 {
+  font-size: 1.37rem;
+  margin-bottom: 15.5rem;
+  letter-spacing: 1px;
+}
+
+/*-------------------------
+*----------الصفحه الرئيسيه----*/
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background: var(--samawi);
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  color: var(--samawi);
+}
+
+span1 {
+  color: var(--smawifateh);
+}
+
+
+p {
+  color: var(--abyath);
+  letter-spacing: 1px;
+  line-height: 1.80rem;
+  font-size: 1rem;
+}
+
+nav {
+  padding-top: 1.5rem;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.5rem 0.7rem;
+}
+
+nav ul li a {
+  margin-top: -2rem;
+  font: bolder;
+  color: var(--aswad);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--abyath);
+  transition: 0.4s;
+}
+
+.btn {
+  background-color: var(--abyath);
+  color: var(--aswad);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.2rem 1rem;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  transition: 0.4s;
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+
+
+}
+
+.content-text {
+  position: relative;
+  bottom: 100px;
+  margin-top: 6rem;
+  margin-right: 5rem;
+  margin: 1;
+  text-align: center;
+}
+.content-text li {
+  position: relative;
+  bottom: 100px;
+  margin-top: 6rem;
+  margin-right: 5rem;
+  margin: 1;
+}
+
+.btn:hover {
+  background-color: var(--smawifateh);
+  border: 2px solid var(--ahmer);
+  color: var(--abyath);
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social {
+  margin:-1.5rem;
+}
+
+.social img {
+  width: 2.5rem;
+  margin: 1rem;
+  transition: 0.4s;
+  margin-top: 6rem;
+  /* padding-left: 101px; */
+}
+
+.social img:hover {
+  transform: scale(1.2);
+}
+
+.conteiner-imges {
+  height: 40px;
+  align-items:center;
+  justify-content:right;
+  margin-right: 10rem;
+  margin-left: 30rem;
+}
+
+.conteiner-imges img {
+  width: 420px;
+  height: 250px;
+  border-radius: 4rem;
+  cursor: pointer;
+  transition: 0.4s;
+  right: 50%;
+  left: 100%;
+  margin-top: -10rem;
+
+
+}
+
+.conteiner-imges img:hover {
+  transform: scale(1.05);
+}
+
+/*-------------------------
+*----------هدفنا----*/
+.hadafna {
+  padding: 2rem var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+
+}
+
+.hadafna .conteiner-imgs {
+  width: 400px;
+  margin-right: 10%;
+}
+
+.hadafna .conteiner-imgs img {
+  width: 90%;
+  margin-top: 8rem;
+  margin-right: 100%;
+
+}
+
+.hadafna .conteiner-texts {
+  width: 35%;
+}
+
+.hadafna .conteiner-texts h5 {
+  font-size: 2rem;
+  margin-top: -3rem;
+
+}
+
+.hadafna .conteiner-texts h1 {
+  font-size: 5rem;
+  text-align: right;
+}
+
+.hadafna .conteiner-texts p {
+  text-align: right;
+  font-size: 2rem;
+  font-size: large;
+  margin-top: -2rem;
+}
+
+/*---------الوظائف--------
+-------------------------*/
+
+.services {
+  background-color: var(--smawifateh);
+  padding: 2rem var(--padding);
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 250px;
+  height: 360px;
+  background-color: var(--samawi);
+  border-radius: 36px;
+  padding: 1.3rem 1rem;
+  text-align: center;
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+
+}
+
+.card i {
+  font-size: 3.12rem;
+  text-align: center;
+  color: var(--aswad);
+  margin: 2rem;
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 8rem;
+}
+
+.card p {
+  margin-top: 2rem;
+}
+
+.skills .conteinet-imgs {
+  width: 700px;
+}
+
+.skills .conteinet-imgs img {
+  width: 90%;
+  margin-top: 8rem;
+  margin-right: 90%;
+
+}
+
+/*-------------------------
+*----------الخبرات----*/
+
+.skills {
+  background-color: var(--samawi);
+  padding: 2rem var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills .conteinet-skills {
+  width: 50%;
+}
+
+.content-skills {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+
+}
+
+.skill {
+  width: 100px;
+  height: 100px;
+  background-color: var(--smawifateh);
+  border-radius: 50%;
+  margin: 0 2rem 3rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+}
+
+.skill img {
+  width: 70%;
+}
+
+/*-------------------------
+*----------النهايه----*/
+
+footer {
+  padding: 2rem var(--padding);
+
+
+}
+
+footer .content-fotter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+footer .content-fotter p {
+  color: var(--abyath);
+  text-align: center;
+  width: 550px;
+  margin-top: 1rem;
+}
+
+footer .content-fotter .end {
+  color: var(--samawi);
+  margin-top: 1rem;
+}
+
+#menu {
+  display: none;
+  position: relative;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+#menu span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  background-color: var(--abyath);
+  border-radius: 6px;
+  transform-origin: 0 0;
+  transform: 0.4s;
+  transition: 0.6s;
+  margin-bottom: 5px;
+  box-shadow: 0.3rem 0.3rem 20px 2px rgba(0, 0, 0, 0.25), -0.2rem -0.2rem 20px 2px rgba(0, 0, 0, 0.22);
+}
+
+#menu.is-active span:nth-child(1) {
+  transform: translate(0px, -2px) rotate(45deg);
+
+}
+
+#menu.is-active span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(15px);
+  transition: 0.4s;
+
+}
+
+#menu.is-active span:nth-child(3) {
+  transform: translate(-3px, 3px) rotate(-45deg);
+
+}
+
+#menu.is-active span {
+  background-color: var(--smawifateh);
+}
+
+/*-------------------------
+*----------الميديا كويري----*/
+
+@media screen and (max-width: 575px) {
+  .root {
+    padding: 1.5rem;
+
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .conteiner-imges {
+    display: none;
+
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 82px;
+    padding-top: 0;
+    background-color: var(--samawi);
+    border-bottom: var(--smawifateh);
+    z-index: 100;
+  }
+
+  nav h2 {
+    font-size: 1rem;
+    color: var(--smawifateh);
+
+  }
+
+  nav>a {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+
+  nav ul {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40vh;
+    background: var(--samawi);
+  }
+
+  .content-text {
+    bottom: 0em;
+  }
+
+  .content p {
+    margin-left: 3rem;
+
+  }
+
+  h1 {
+    margin-left: 3rem;
+  }
+
+  h3 {
+    margin-left: 3rem;
+  }
+
+  .social {
+    margin-top: 26px;
+    text-align: center;
+    margin-left: 8rem;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  nav ul.is-active {
+    display: block;
+  }
+
+  .conteiner-imgs {
+    display: none;
+  }
+
+  .hadafna {
+    width: 100%;
+  }
+
+  .hadafna .conteiner-texts h5 {
+    font-size: 0.96rem;
+    text-align: center;
+  }
+
+  .hadafna .conteiner-texts h1 {
+    font-size: 4rem;
+  }
+
+  .hadafna .conteiner-texts p {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+
+  .box {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .content {
+    width: 112%;
+  }
+
+  .card h1 {
+    margin-left: 0rem;
+  }
+
+  .conteiner-imgss {
+    display: none;
+  }
+
+  .skills .conteinet-skills {
+    width: 150%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .conteinet-skills h1 {
+    margin-left: 7rem;
+    text-align: center;
+
+
+  }
+
+  .skills .conteinet-skills .content-skills {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .skill {
+    width: 80px;
+    height: 80px;
+  }
+
+  footer .content-fotter p {
+    width: 100%;
+
+  }
+
+  footer {
+    width: 100%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width:896px) {
+  .root {
+    padding: 1.5rem;
+
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .conteiner-imges {
+    display: none;
+
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 82px;
+    padding-top: 0;
+    background-color: var(--samawi);
+    border-bottom: var(--smawifateh);
+    z-index: 100;
+  }
+
+  nav h2 {
+    color: var(--smawifateh);
+    font-style: oblique;
+    font-size: medium;
+
+  }
+
+  nav>a {
+    display: none;
+  }
+
+  nav ul li {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+
+  }
+
+  nav ul {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60h;
+    background: var(--samawi);
+  }
+
+  .content-text {
+    bottom: 0em;
+  }
+
+  .content p {
+    margin-left: 3rem;
+  }
+
+  h1 {
+    margin-left: 3rem;
+  }
+
+  h3 {
+    margin-left: 3rem;
+  }
+
+  .social {
+    margin-top: 26px;
+    text-align: center;
+    margin-left: 8rem;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  nav ul.is-active {
+    display: block;
+  }
+
+  .conteiner-imgs {
+    display: none;
+  }
+
+  .hadafna {
+    width: 100%;
+  }
+
+  .hadafna .conteiner-texts h5 {
+    font-size: 0.96rem;
+    text-align: center;
+    margin-left: 12rem;
+  }
+
+  .hadafna .conteiner-texts h1 {
+    font-size: 4rem;
+    margin-top: 11rem;
+  }
+
+  .hadafna .conteiner-texts p {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 15px;
+  }
+
+  .box {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .content {
+    width: 112%;
+  }
+
+  .card h1 {
+    margin-left: 0rem;
+  }
+
+  .conteiner-imgss {
+    display: none;
+  }
+
+  .skills .conteinet-skills {
+    width: 150%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .conteinet-skills h1 {
+    margin-left: 7rem;
+    text-align: center;
+
+
+  }
+
+  .skills .conteinet-skills .content-skills {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .skill {
+    width: 80px;
+    height: 80px;
+  }
+
+  footer .content-fotter p {
+    width: 100%;
+
+  }
+
+  footer {
+    width: 100%;
+  }
+
+}
